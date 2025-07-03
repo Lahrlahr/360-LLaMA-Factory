@@ -1,4 +1,30 @@
 {
+  "sft-4k": {
+    "file_name": "stage2-3k1.json",
+    "formatting": "sharegpt",
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "dpo-1": {
+    "file_name": "dpo-11.json",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
